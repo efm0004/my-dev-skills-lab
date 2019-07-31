@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #FFA93A;
+    padding: 3px;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: #92C481;
+    color: white;
+    padding: 20px 70px;
+    font-weight: lighter;
+}
+
+ul {
+    justify-content: left;
+    padding: 15px 0px; 
+    list-style-type: none;
+}
+
+li {
+    padding: 15px 0px;
+}
+
+button.red {
+    background-color: #E26566;
+    color: white;
+    margin-right: 8px;
+    height: 20px;
+}
+
+button.green {
+    border: 3px solid #92C481;
+    padding: 5px;
+    color: #92C481;
+    font-weight: bold;
+}
+
+input {
+    border: 3px solid #92C481;
+    margin-right: 4px;
+    padding: 10px 150px;
+}
+
+div {
+    display: flex;
+    justify-content: column;
+}
